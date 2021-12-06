@@ -44,8 +44,8 @@ def handle_message(event):
     msg_from_user = event.message.image
     if msg_from_user == 'Data-covid':
     	message = ImageSendMessage(
-            original_content_url='https://upload.wikimedia.org/wikipedia/id/thumb/6/60/Ada_Apa_Denga_Cinta_2.jpg/220px-Ada_Apa_Denga_Cinta_2.jpg',
-            preview_image_url='https://upload.wikimedia.org/wikipedia/id/thumb/6/60/Ada_Apa_Denga_Cinta_2.jpg/220px-Ada_Apa_Denga_Cinta_2.jpg'
+            original_content_url='https://i.imgur.com/41lXWjP.png',
+            preview_image_url='https://i.imgur.com/41lXWjP.png'
         )
         line_bot_api.reply_message(event.reply_token, message)
        
